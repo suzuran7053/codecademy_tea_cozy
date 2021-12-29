@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: grey;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a,
+a:hover {
+    color: inherit;
+}
+
+
+/* nav */
+
+nav {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 9.5px 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    height: 100%;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+
+/* main */
+
+.section_ourMission {
+    background-image: url("resources/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.section_ourMission div {
+    background-color: black;
+    padding: 5px;
+    /* Vertically centered in this section*/
+    position: relative;
+    top: 50%;
+}
+
+
+/* Section 2 */
+
+.section_teaOfTheMonth {
+    margin: 30px auto;
+}
+
+.teasBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+}
+
+.section_teaOfTheMonth figure {
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.section_teaOfTheMonth img {
+    height: 200px;
+    width: 300px;
+}
+
+
+/*Section 3 */
+
+.section_locations {
+    background-image: url("resources/img-locations-background.jpg");
+    background-size: cover;
+    height: 500px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.section_locations h2 {
+    margin-top: 30px;
+}
+
+.center_box {
+    position: relative;
+    top: 100px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.locations {
+    background-color: black;
+    width: 300px;
+    margin: 20px;
+    padding: 20px 0;
+    opacity: 1;
+    justify-content: center;
+}
+
+.locations p {
+    margin: 13px auto;
+}
+
+address {
+    margin: 30px auto;
+    height: 200px;
+    position: relative;
+    top: 50%;
+}
+
+
+/* footer */
+
+footer small {
+    position: relative;
+    left: 20px;
+}
